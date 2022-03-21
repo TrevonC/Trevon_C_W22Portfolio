@@ -15,7 +15,7 @@ const About = () => {
                 Seeking opportunities to work in the Software Development field to gain experience and skills to continue growing 
                 professionally and personally. Accustomed to being well-organized and goal focused to complete projects on time. 
                 Looking to learn and help make an impact with my work.</p>
-                <Image src="/resume.png" width={1000} height={1400}/>
+                <Image src="/resume.png" width={1000} height={1400} alt="resume"/>
                 <p className={styles.text}>"Anyone who has never made a mistake has never tried anything new." - Albert Einstein</p>
             </div>
         </>
