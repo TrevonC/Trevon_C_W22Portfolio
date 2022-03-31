@@ -12,9 +12,9 @@ const Resume = () => {
     <div name='resume' className=' h-screen bg-gradient-to-t from-blue-400 to-gray-300 text-gray-900 flex flex-wrap w-full p-8 space-x-4 px-2 py-16 sm:px-0'>
         
       <Tab.Group as="div" className="flex flex-col justify-center items-center w-full h-full" >
-        <p className='text-4xl font-bold py-4 inline-block animate-bounce'>
+        <h1 className='text-4xl font-bold py-4 inline-block animate-bounce'>
           Resume
-        </p>
+        </h1>
       <Tab.List className="flex p-1 space-x-1 bg-[#08192f] shadow-2xl">
         <Tab className={cx(
                  'w-full py-2.5 text-lg leading-4 font-medium text-neutral-100',
